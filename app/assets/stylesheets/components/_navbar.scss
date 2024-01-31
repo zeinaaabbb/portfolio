@@ -28,15 +28,18 @@ li button {
   text-align: center;
   padding: 10px 14px;
   margin: 10px;
-  // margin-right: 20px;
   border-radius: 40px;
+  border: none;
   text-decoration: none;
+}
 
+li button:hover{
+  border: black;
 }
 
 li #aboutme {
   background-color: #F48BDE ;
-  margin-left: 50px;
+  // margin-left: 50px;
 
 }
 
@@ -54,5 +57,4 @@ li #project {
 li #connect {
   background-color: #000000;
   color: white;
-  margin-left: 800px;
 }

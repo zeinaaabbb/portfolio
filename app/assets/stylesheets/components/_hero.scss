@@ -5,6 +5,14 @@
   // margin: auto;
   border: 2px solid #000;
   background: #F48BDE;
+  position:relative;
+}
+
+.hero-text h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .hero-image {

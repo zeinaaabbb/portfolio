@@ -28,6 +28,7 @@ nav{
   background-color: #D9D9D9;
   overflow: auto;
   height: auto;
+  border: 2px solid #000;
 }
   .left-links{
   flex:1 1 200px;
@@ -46,7 +47,4 @@ nav{
 }
 .links:hover {
   border: 2px solid black;
-}
-.selected{
-  border-bottom: 2px solid purple;
 }

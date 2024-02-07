@@ -22,7 +22,7 @@
 
 nav{
   display: flex;
-  // position: sticky;
+  position: sticky;
   top:0;
   width: 100%;
   background-color: #D9D9D9;
@@ -30,6 +30,12 @@ nav{
   height: auto;
   border: 2px solid #000;
 }
+
+nav:hover{
+  border: 2px solid #000;
+}
+
+
   .left-links{
   flex:1 1 200px;
 }
@@ -44,7 +50,8 @@ nav{
   border-radius: 40px;
   border: none;
   margin: 2px 4px;
+  border: 2px solid black;
 }
 .links:hover {
-  border: 2px solid black;
+  color: white;
 }

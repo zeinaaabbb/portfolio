@@ -1,51 +1,76 @@
 .skills {
+  padding: 10px 10px;
   background-color: #F4C101;
-  border-bottom: black 2px solid;
+  border: 2px solid #000;
+  min-width: 300px; /**/
+}
+
+button:hover {
+  border: 2px solid #000;
+}
+
+.row-top{
+  padding-bottom: 5px;
 }
 
 button {
-  border-style: solid;
-  border: black;
-  border: 2px;
+  border: 1px solid black;
   border-radius: 50px;
-  // width: 120px;
-  // height: 40px;
-  // margin: 4px;
+  padding: 10px 10px;
+  min-width: 120px; /**/
+  max-width: 150px;
+  cursor: auto;
+  margin-bottom: 5px;/**/
 }
 
-#RubyRail button {
+#react {
+  background-color: #C8EA7D;
+}
+#RubyRail {
   background-color: #ED704A ;
 }
-#Javascript button{
+#Javascript {
   background-color: #FFC900 ;
 }
-#Ruby button {
+#Ruby {
   background-color: #CEF576;
 }
-
-#CSS button{
+#CSS {
   background-color: #C6E5EE ;
 }
-#Html button{
+#Html {
   background-color: #FFC900 ;
 }
-#sass button{
+#sass {
   background-color: #FE88C7;
 }
-
-#figma button {
+#figma {
   background-color: #FFFFFF;
 }
-#stimulus button {
+#stimulus {
   background-color: #C382F5;
 }
-#tgresql button {
+#postgresql {
   background-color: #ED704A  ;
 }
-#sql button {
-  background-color: #FFFFFF;
-  ;
+#sql {
+  background-color: #FE88C7;
 }
-#ajax button {
+#ajax{
   background-color: #C8EA7D;
+}
+
+#bootstrap {
+  background-color: #C382F5;
+}
+
+@media only screen and (max-width: 1000px) {
+  .row-top, .row-bottom {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  button {
+    min-width: 20%;
+  }
 }

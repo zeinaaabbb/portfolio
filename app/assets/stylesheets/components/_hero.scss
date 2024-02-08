@@ -1,8 +1,11 @@
 body {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
   max-width: 100%;
   max-height: fit-content;
-  overflow-x: hidden;
-  margin: 0 ;
+  // overflow-x: hidden;
+  // margin: 0 ;
 }
 
 .hero-text {

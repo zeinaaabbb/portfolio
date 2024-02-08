@@ -1,30 +1,39 @@
 <div class="project-card py-4 my-3">
   <div class="d-flex bd-highlight">
-    <div class="text-center flex-grow-1 bd-highlight">
-      <h4>01. League All</h4>
+    <div class="d-inline-flex justify-content-around flex-grow-1 bd-highlight">
+      <h3>01. League-All</h3>
+      <%= render "modal_la"%>
     </div>
   </div>
 
   <div id="carouselProjectCard1" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <%= image_tag "league4.jpeg", class: "image-la-project-tag d-block w-75 mx-auto", alt:"..." %>
+        <%= image_tag "1-Homepage-la.jpeg", class: "image-la-project-tag d-block w-75 mx-auto", alt:"..." %>
       </div>
       <div class="carousel-item">
-        <%= image_tag "league4.jpeg", class: "image-la-project-tag d-block w-75 mx-auto", alt:"..." %>
+        <%= image_tag "2-Dashboard-la.jpeg", class: "image-la-project-tag d-block w-75 mx-auto", alt:"..." %>
       </div>
       <div class="carousel-item">
-        <%= image_tag "league4.jpeg", class: "image-la-project-tag d-block w-75 mx-auto", alt:"..." %>
+        <%= image_tag "3-Team-Dashboard-la.jpeg", class: "image-la-project-tag d-block w-75 mx-auto", alt:"..." %>
       </div>
       <div class="carousel-item">
-        <%= image_tag "league5.jpeg", class: "image-la-project-tag d-block w-75  mx-auto", alt:"..." %>
+        <%= image_tag "4-Players-la.jpeg", class: "image-la-project-tag d-block w-75  mx-auto", alt:"..." %>
       </div>
       <div class="carousel-item">
-        <%= image_tag "league6.jpeg", class: "image-la-project-tag d-block w-75 mx-auto", alt:"..." %>
+        <%= image_tag "5-Registrations.jpeg", class: "image-la-project-tag d-block w-75 mx-auto", alt:"..." %>
       </div>
       <div class="carousel-item">
-        <%= image_tag "league7.jpeg", class: "image-la-project-tag d-block w-75 mx-auto", alt:"..." %>
+        <%= image_tag "6-Group-messages-la.jpeg", class: "image-la-project-tag d-block w-75 mx-auto", alt:"..." %>
       </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjectCard1" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselProjectCard1" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
     </div>
   </div>
 </div>

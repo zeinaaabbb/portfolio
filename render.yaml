@@ -1,6 +1,6 @@
 databases:
   - name: portfolio
-    databaseName: ortfolio
+    databaseName: portfolio
     user: zeinab
     plan: free
 

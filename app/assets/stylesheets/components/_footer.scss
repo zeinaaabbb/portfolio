@@ -14,7 +14,6 @@ button h4 {
   margin-top: 5px;
 }
 
-
 .arrow-footer{
   width: 20px;
   height: 20px;
@@ -35,6 +34,17 @@ button h4 {
   background-color: #CEF576;
 }
 
-.social-link:hover{
-  text-decoration: solid;
+#linkedin:hover {
+  border-style: solid;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+#email:hover {
+  border-style: solid;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+#github:hover {
+  border-style: solid;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
 }

@@ -1,17 +1,35 @@
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-warning rounded-5" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+<button type="button" class="btn-project btn-warning rounded-5" data-bs-toggle="modal" data-bs-target="#exampleModal2">
   <%= image_tag "arrow.jpeg", class: "arrow-project", alt:"..." %>
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade " id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
-        <h1 class="modal-title" id="exampleModalLabel">VenueBookr</h1>
+      <div class="row modal-body">
+        <div class="col-12 col-lg-6 ">
+          <h1 class="modal-title" id="exampleModalLabel">0.2 VenueBookr</h1>
+          <p>An application where users could either book a venue or host their own, similar to Airbnb.</p>
+          <p>Its goal is to remove the inefficiencies and complications commonly faced in event planning and venue booking, making it easier.</p>
+          <h6>Features:</h6>
+          <ul>
+            <li>Ability to search for venues by name or location </li>
+            <li>Ability to book a venue </li>
+            <li>Ability to host a venue</li>
+            <li>Ability to save/bookmark a venue </li>
+            <li>Ability to leave reviews of a booked venue</li>
+          </ul>
+          <p>Tech Stack: Ruby on Rails , Ruby, Javascript, SASS, HTML , CSS, Bootstrap, Stimulus.js, Postgresql</p>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/911522763?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="League-All Demo"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+          <br>
+          <%= link_to 'Github -> View Code','https://github.com/crudengold/-venuebookr', target: '_blank', class:"project-code-link" %>
+        </div>
       </div>
     </div>
   </div>

@@ -1,12 +1,12 @@
 databases:
-  - name: Portfolio
-    databaseName: Portfolio
+  - name: portfolio
+    databaseName: ortfolio
     user: zeinab
     plan: free
 
 services:
   - type: web
-    name: Portfolio
+    name: portfolio
     runtime: ruby
     plan: free
     buildCommand: "./bin/render-build.sh"

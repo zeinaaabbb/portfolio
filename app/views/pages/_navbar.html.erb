@@ -1,10 +1,10 @@
     <nav>
       <div class="left-links">
-        <a class="links selected"  href="#about-section" id="aboutme">About Me</a>
-        <a class="links" href="#skills-section" id="skills">Skills</a>
-        <a class="links" href="#project-section" id="project" >Projects</a>
+        <%= link_to "About Me", "#about-section", id: "aboutme", class:"links" %>
+        <%= link_to "skills", "#skills-section", id: "skills", class:"links" %>
+        <%= link_to "Projects", "#project-section", id: "project", class:"links" %>
       </div>
       <div class="right-links">
-        <a class="links" href="#connect-section" id="connect">Connect</a>
+        <%= link_to "Connect", "#connect-section", id: "connect", class:"links" %>
       </div>
     </nav>

@@ -1,0 +1,35 @@
+<!-- Button trigger modal -->
+<button type="button" class="btn-project btn-warning rounded-5" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+  <%= image_tag "arrow.jpeg", class: "arrow-project", alt:"..." %>
+</button>
+
+<!-- Modal -->
+<div class="modal fade " id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="row modal-body">
+        <div class="col-12 col-lg-6 ">
+          <h1 class="modal-title" id="exampleModalLabel">DISH</h1>
+          <p>Dish a MERN (MongoDB, Express.js, React, Node.js) stack web application for managing recipes with user authentication</p>
+
+          <h6>Features:</h6>
+          <ul>
+            <li>User authentication (signup, login, logout)</li>
+            <li>CRUD operations for recipes</li>
+            <li>User-specific data storage</li>
+          </ul>
+          <p>Tech Stack: MongoDB, Express.js, React, Node.js</p>
+
+        </div>
+        <div class="col-12 col-lg-6">
+        <div style="padding:62.5% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/930833925?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="DISH: a recipe app"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+          <br>
+          <%= link_to 'Github -> View Code','https://github.com/zeinaaabbb/Dish', target: '_blank', class:"project-code-link" %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
